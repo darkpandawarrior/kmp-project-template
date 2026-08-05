@@ -143,3 +143,7 @@ deployment/fastlane/**/report.xml
 # *.keystore / *.key rules above would ignore them. (Real secrets live in gitignored secrets/live/.)
 !secrets/sample/android/keystores/upload_keystore.keystore
 !secrets/sample/desktop/linux/gpg_signing.key
+
+# Code knowledge graph (graphify). Derived, rebuildable, and large; it also mirrors every
+# symbol name in the repo, so it is never committed. Rebuild: node ~/Tools/DevTools/AgentHarness/scripts/graph.mjs build
+graphify-out/
