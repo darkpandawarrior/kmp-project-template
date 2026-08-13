@@ -41,6 +41,13 @@ internal fun Project.configureKotlinMultiplatform() {
         wasmJs() {
             browser()
             nodejs()
+            // Mirrors the js(IR) target above. Compose Multiplatform 1.12.0-rc01 promoted
+            // `checkComposeUiTestConfigurationForWasmJs` to a hard build failure (CMP-4906):
+            // Compose UI cannot load the Skiko runtime from a bare klib, so a wasmJs target
+            // carrying Compose UI tests must declare a webpack-bundled executable. Set here
+            // rather than per-module because this plugin is what configures wasmJs for the
+            // whole tree — 10+ modules failed the check, all of them through this one seam.
+            binaries.executable()
         }
 
         compilerOptions {

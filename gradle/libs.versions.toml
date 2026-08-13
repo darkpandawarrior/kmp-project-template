@@ -12,7 +12,7 @@ iosTeamId        = "L432S2FZP5"               # Apple Developer Team ID
 # ─────────────────────────────────────────────────────────────────────────────────────────────────
 # Android
 androidDesugarJdkLibs = "2.1.5"
-androidGradlePlugin = "9.2.1"
+androidGradlePlugin = "9.4.0-alpha08"
 androidTools = "32.2.1"
 compileSdk = "37"
 minSdk = "26"
@@ -21,7 +21,7 @@ javaVersion = "17"
 jvmToolchain = "21"
 
 commonsCodec = "1.22.0"
-firebaseBom = "34.15.0"
+firebaseBom = "34.17.0"
 firebaseCrashlyticsPlugin = "3.0.7"
 firebasePerfPlugin = "2.0.2"
 androidxMacroBenchmark = "1.5.0-alpha06"
@@ -49,7 +49,7 @@ junitJupiterApi = "5.14.4"
 junitPlatformLauncherVersion = "1.14.4"
 okhttp = "5.4.0"
 robolectric = "4.16.1"
-roborazzi = "1.67.0"
+roborazzi = "1.71.0"
 
 # Testing Dependencies
 junitVersion = "4.13.2"
@@ -80,7 +80,7 @@ moduleGraph = "2.9.0"
 typesafeConventions = "0.5.0"
 
 # Kotlin KMP Dependencies
-kotlin = "2.4.20-Beta1"
+kotlin = "2.4.20-RC"
 kover = "0.9.8"
 kotlinInject = "0.9.0"
 kotlinxBrowser = "0.5.0"
@@ -88,7 +88,7 @@ kotlinxCoroutines = "1.11.0"
 kotlinxDatetime = "0.8.0"
 kotlinxImmutable = "0.5.1"
 kotlinxSerializationJson = "1.11.0"
-ksp = "2.3.10"
+ksp = "2.3.11"
 
 # Ktor & Ktorfit
 ktorVersion = "3.5.1"
@@ -106,7 +106,7 @@ koinAnnotationsVersion = "4.2.2"
 kmptoolkit = "3.5.3"
 
 # CMP Libraries
-compose-plugin = "1.12.0-beta02"
+compose-plugin = "1.12.0-rc01"
 coil = "3.5.0"
 backHandlerVersion = "2.5.0"
 constraintLayout = "0.8.0"
@@ -121,7 +121,7 @@ wire = "6.2.0"
 compottie = "2.2.4"
 
 # Jetbrains CMP
-composeJB = "1.12.0-beta02"
+composeJB = "1.12.0-rc01"
 composeLifecycle = "2.11.0-beta01"
 composeNavigation = "2.9.2"
 jbCoreBundle = "1.0.1"
