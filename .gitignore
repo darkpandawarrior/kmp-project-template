@@ -217,3 +217,8 @@ deployment/fastlane/.listing_sync_state.json
 # `KotlinMultiplatformLinkedPackageDylib` subpackage, whereas this committed copy depends on the
 # dev_gitlive_* subpackages directly. Do not "refresh" it by copying the build output — that is a
 # migration to a different linkage model, not a version bump.
+
+# Derived code graph (graphify). Rebuildable, large, and it mirrors every symbol name
+# in the repo, so it is a disclosure surface as well as a size problem.
+# Rebuild: node ~/Tools/DevTools/AgentHarness/scripts/graph.mjs build
+graphify-out/
